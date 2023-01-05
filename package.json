@@ -10,9 +10,6 @@
     "serve": "json-server --watch db/tasks.json --port 3000",
     "test": "jest"
   },
-  "lint-staged": {
-    "src/**/*.(ts|tsx)": "yarn eslint --fix && yarn prettier --write && yarn test && yarn test --coverage"
-  },
   "dependencies": {
     "@chakra-ui/react": "^2.4.5",
     "@emotion/react": "^11",
