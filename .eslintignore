@@ -2,4 +2,4 @@
 **/dist/
 jest.config.ts
 coverage
-lint-staged.config.ts
+lint-staged.config.js
